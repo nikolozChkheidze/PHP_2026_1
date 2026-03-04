@@ -63,7 +63,7 @@
                 <td>10</td>
             </tr>
             <tr class="buttons">
-                <td colspan="3">student <input type="text"> <input type="text"> <button> send</button></td>
+                <td colspan="3">student <input type="text" placeholder="name"> <input type="text" placeholder="last name"> <button> send</button></td>
                 
             </tr>
 
