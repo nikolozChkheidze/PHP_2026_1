@@ -11,21 +11,19 @@
             gap: 10px;
             width: 800px;
         }
-        table {
-            width: 100%;
+        table, th, td {
+            border-collapse: collapse;
+            width: 700px;
             border-collapse: collapse;
             border: 1px solid black;
         }
-        #rame{
-            background-color: red;
+        .buttons {
+            text-align: center;
         }
-        .empty{
-            width: 0px;
 
-        }
     </style>
 </head>
-<body>
+<body style="text-align:center;">
     <form action="">
         
         <table>
@@ -64,12 +62,11 @@
                 <td><input type="text"></td>
                 <td>10</td>
             </tr>
-            <tr id="rame">
-                <td>student <input type="text"> <input type="text"> <button> send</button></td>
+            <tr class="buttons">
+                <td colspan="3">student <input type="text"> <input type="text"> <button> send</button></td>
                 
             </tr>
-            <tr class="empty"></tr>
-            <tr class="empty"></tr>
+
 
 
         </table>
